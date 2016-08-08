@@ -1,0 +1,544 @@
+@media only screen and (min-width: 1200px) {
+    .main__nav {
+        display: none;
+    }
+    .slider__left {
+        left: -8%;
+    }
+    .slider__right {
+        right: -8%;
+    }
+    .header__slider .carousel__slider {
+        left: 67%;
+    }
+    .category__left_new {
+         display: none;
+    }
+    .category__center_item_new {
+         display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main__nav {
+        display: none;
+    }
+    .container {
+        max-width: 738px;
+    }
+    .brands .container {
+       max-width: 799px; 
+    }
+    header {
+        height: 797px;
+    }
+    .logo {
+        display: block;
+        width: 100%;
+    }
+    nav {
+        display: block;
+        width: 100%;
+        float: none;
+        margin-top: 22px;
+    }
+    .menu__item {
+        margin: 0;
+        margin-right: 47.5px;
+    }
+    .header__slider {
+        margin-top: 76px;
+    }
+    .description {
+        width: 272px;
+        height: 192px;
+        margin-top: 96px;
+        margin-left: 24px;
+    }
+    .description h2 {
+        padding-top: 2px;
+        font-size: 48px;
+        white-space: nowrap;
+    }
+    .description h3 {
+        white-space: nowrap;
+        font-size: 24px;
+        width: 268px;
+    }
+    .description p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .picture {
+        right: 0;
+        width: 400px;
+    }
+    .picture img {
+        right: 0px;
+        top: -22px;
+    }
+    .slider__left {
+        left: -2%;
+    }
+    .slider__right {
+        right: -2%;
+    }
+    .header__slider .carousel__slider {
+        bottom: -58px;
+        left: 67%;
+    }
+    .about__row {
+        font-size: 0;
+        margin-top: 76px;
+    }
+    .about__col {
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .about__wrapper {
+        width: 180px;
+    }
+    .about__left .about__wrapper {
+        margin-right: 1px;
+    }
+    .about__center .about__wrapper {
+        margin-left: 1px;
+
+    }
+    .about__right .about__wrapper {
+        margin: 0;
+        padding: 0;
+    }
+    .about__col h2 {
+        font-size: 24px;
+        margin-bottom: 2px;
+    }
+
+    .about__text {
+        height: 142px;
+    }
+    .about__read {
+        padding-top: 8px;
+        padding-right: 25px;
+    }
+    .about__info {
+        left: 10px;
+        top: 7px;
+    }
+    .about__music {
+        left: 26px;
+        top: 6px;
+    }
+    .about__info,
+    .about__music {
+        background: url('../img/sprite.png') no-repeat -1px -24px;
+        width: 24px;
+        height: 25px;
+    }
+    .article__block {
+        margin-left: 20px;
+        position: relative;
+        width: 313px;
+        height: 272px;
+    }
+    .carousel {
+        left: 112px;
+        bottom: -42px;
+    }
+    .article__content {
+        width: 250px;
+    }
+    .article__content h2 {
+        font-size: 24px;
+        width: 100px;
+        line-height: 24px;
+    }
+    .article__content p {
+        height: 143px;
+    }
+    .article__blog p {
+        margin-left: 0px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .article__blog .news__content {
+      padding-left:15px;
+      width: 255px;
+    }
+    .brands__wrapper {
+        text-align: center;
+
+    }
+    .brands__wrapper a {
+        margin-right: 20px;
+    }
+    .brands__wrapper a:first-child {
+        margin-left: 6px;
+        margin-right: 20px;
+    }
+    .categories__row .category_col{
+        padding-right:50px;
+    }
+    .category__col h2 {
+        font-size: 30px;
+        margin-bottom: 1px;
+    }
+    .category__col h3 {
+        font-size: 24px;
+    }
+    .category__center_item {
+         display: none;
+    }
+    .category__copy {
+        font-size: 14px;
+    }
+    .category__col p {
+        font-size: 16px;
+        width: 210px;
+    }
+    .category__left_new p {
+        height: 170px;
+        margin-top: 0px;
+    }
+    .category__left{
+         display: none;
+    }
+    .menu__footer li {
+    margin: 0;
+    margin-right: 0px;
+    }
+    .menu__footer .menu__item{
+        padding-right:40px;
+    }
+    .footer__sign{
+        margin-right:10px;
+        margin-top:50px;
+    }
+    .footer__menu {
+    height: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu__media li, .description p {
+        display: none;
+    }
+    .main__nav {
+        display: block;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+    .container {
+        max-width: 440px;
+    }
+    header {
+        height: 548px;
+    }
+    .logo {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .header__slider {
+        margin-top: 35px;
+        height: 246px;
+    }
+    .slider__left {
+        top: 105px;
+        left: -3%;
+    }
+    .slider__right {
+        top: 105px;
+        right: -3%;
+    }
+    .description {
+        margin-top: 90px;
+    }
+    .description h2 {
+        font-size: 36px;
+    }
+    .description h3 {
+        font-size: 18px;
+        width: 200px;
+    }
+    .picture {
+        width: 30%;
+        height: 245px;
+    }
+    .picture img {
+        width: 190px;
+        right: 2px;
+        top: -8px;
+    }
+    .header__slider .carousel__slider {
+        bottom: -8px;
+        left: 42%;
+    }
+    .about {
+        height: 598px;
+    }
+    .about__col {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .about__col .about__wrapper {
+        width: 380px;
+        margin: 0;
+        padding: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .about__col h2 {
+        font-size: 24px;
+    }
+    .about__text {
+        font-size: 16px;
+        height: 70px;
+    }
+    .about__read {
+        padding-top: 14px;
+        padding-right: 2px;
+    }
+    .about__music {
+        left: 15px;
+        top: 2px;
+    }
+    .about__info,
+    .about__music {
+        background: url('../img/sprite.png') no-repeat -1px -24px;
+        width: 24px;
+        height: 25px;
+    }
+    article {
+        height: 785px;
+    }
+    .article__row {
+        padding-top: 68px;
+    }
+    .article__col {
+        width: 100%;
+    }
+    .article__block {
+        width: 416px;
+        height: 273px;
+    }
+    .article__content {
+        padding-top: 30px;
+    }
+    .article__content h2 {
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .article__content p {
+        width: 350px;
+        height: 166px;
+    }
+    .carousel{
+        left: 39%;
+    }
+    .article__blog {
+        margin-top: 85px;
+        margin-left: 62px;
+    }
+    .news__read_more {
+        padding-top: 20px;
+        padding-right: 35px;
+    }
+    .brands {
+        height: 230px;
+    }
+    .categories {
+        height: 667px;
+    }
+    .categories__row {
+        margin-top: 74px;
+        height: 100%;
+    }
+    .category__col {
+        margin:  0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 52px;
+    }
+    .category__col h2 {
+        font-size: 30px;
+    }
+    .category__col h3 {
+        font-size: 24px;
+    }
+    .category__copy {
+        font-size: 14px;
+    }
+    .category__col p {
+        font-size: 16px;
+        width: 100%;
+    }
+    .category__center_item {
+         display: none;
+    }
+    .category__left_new p {
+        height: 80px;
+        margin-top: 0px;
+    }
+    .category__left{
+        display:none;
+    }
+    .category__right p, 
+    .category__center p {
+        height: 92px;
+    }
+    .footer__menu {
+        background: url("../img/footer320.png");
+        height: 201px;
+    }
+    .footer__col {
+        display: block;
+        width: 100%;
+        line-height: 20px;
+        padding-top: 46px;
+    }
+    .footer__col li {
+        display: inline-block;
+        margin-right: 17.5px;
+    }
+    .footer__sign{
+        padding-top: 28px;
+        width: 100%;
+        clear: none;
+        display: block;
+        text-align: center;
+        line-height: 24px;
+    }
+    .menu__footer .menu__item{
+        padding-right:0px;
+    }
+    .brands__wrapper {
+        text-align: center;
+    }
+    .brands__wrapper a {
+        margin: 0 32.5px;
+    }
+    .footer__sign{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .menu li, .description p, .picture, .categories, .footer__row .footer__col{
+        display: none;
+    }
+    header {
+        height: 516px;
+    }
+    .main__nav {
+        display: block;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+    .header__slider {
+        background: none;
+        height: 50px;
+        margin-top: 34px;
+    }
+    .description {
+        margin-left: 58px;
+    }
+    .description h2 {
+        line-height: 36px;
+        letter-spacing: -0.5px;
+    }
+    .description h3 {
+        letter-spacing: -0.2px;
+        width: 202px;
+    }
+    .slider__left {
+        top: 105px;
+        left: 0%;
+    }
+    .slider__right {
+        top: 105px;
+        right: 0%;
+    }
+    .header__slider .carousel__slider {
+        bottom: 34px;
+        left: 37.2%;
+    }
+    .about__row {
+        margin-top: 70px;
+    }
+    .about__col .about__wrapper {
+        width: 226px;
+        padding-right: 10px;
+        margin-bottom: 25px;
+    }
+    .about__text {
+        width: 200px;
+        height: 75px;
+    }
+    .about__read {
+        padding-right: 10px;
+
+    }
+    .about__settings, 
+    .about__info, 
+    .about__music {
+        left: 25px;
+    }
+    .about__info,
+    .about__music {
+        background: url('../img/sprite.png') no-repeat -1px -24px;
+        width: 24px;
+        height: 25px;
+    }
+    .article__block {
+        width: 256px;
+        height: 273px;
+        margin-left: 36px;
+    }
+    .carousel__slider{
+        padding-left: 30px;
+    }
+    .article__content {
+        padding-top: 26px;
+    }
+    .article__content h2 {
+        font-size: 24px;
+        width: 120px;
+        margin-bottom: 5px;
+    }
+    .article__content p {
+        width: 184px;
+        height: 162px;
+    }
+    .article__blog {
+        margin-top: 86px;
+        margin-left: 10px;
+    }
+    .article__blog h3 {
+        width: 155px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .article__blog h3 {
+        padding-left:15px;
+    }
+    .article__blog p {
+        /*width: 215px;*/
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .brands {
+        height: 418px;
+    }
+    .brands__wrapper a {
+        line-height: 140px;
+    }
+    .footer__sign{
+        line-height: 10px;
+        margin-right:0px;
+    }
+}
